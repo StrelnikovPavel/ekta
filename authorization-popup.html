@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<title>Поліси</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220922120614">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="page">
+			<div class="authorization">
+				<div class="authorization__container">
+					<div class="authorization__body authorization__body-popup">
+						<button type="button" class="authorization__close _icon-close"></button>
+						<div class="authorization__label">Authorization</div>
+						<form data-required data-tabs data-tabs-animate action="#" class="authorization__form form-authorization">
+							<div data-tabs-titles class="form-authorization__nav">
+								<button data-tabs-title type="button" class="form-authorization__button _tab-active">E-mail</button>
+								<button data-tabs-title type="button" class="form-authorization__button">Phone</button>
+							</div>
+							<div data-tabs-body class="form-authorization__content">
+								<div data-tabs-item class="form-authorization__body ">
+									<div class="form-authorization__inputs">
+										<div class="form-authorization__input">
+											<input data-validate autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Enter e-mail" class="input">
+										</div>
+										<div class="form-authorization__input">
+											<input data-validate autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Enter Password" class="input">
+										</div>
+									</div>
+									<div class="form-authorization__row">
+										<div class="form-authorization__remember">
+											<input id="c_3" data-error="Ошибка" class="form-authorization__checkbox-input" type="checkbox" value="1" name="form[]">
+											<label for="c_3" class="form-authorization__checkbox-label"><span class="form-authorization__checkbox-text">Remember me</span></label>
+										</div>
+										<a href="#" class="form-authorization__password">Forgot Password?</a>
+									</div>
+									<button type="submit" class="form-authorization__link">Sign in</button>
+								</div>
+								<div data-tabs-item class="form-authorization__body">
+									<div class="form-authorization__inputs">
+										<div class="form-authorization__input">
+											<input data-validate autocomplete="off" type="number" name="form[]" data-error="Ошибка" placeholder="Enter phone" class="input">
+										</div>
+									</div>
+									<button type="submit" class="form-authorization__link">Sign in</button>
+								</div>
+							</div>
+						</form>
+						<div class="authorization__line">
+							<span></span>
+							<p>Or</p>
+							<span></span>
+						</div>
+						<div class="authorization__actions">
+							<div class="authorization__program">
+								<a href="#" class="authorization__facebook _icon-facebook">Facebook</a>
+								<a href="#" class="authorization__google">
+									<img src="img/icons/Google.svg" alt="Google"><span>Google</span></a>
+							</div>
+							<a href="#" class="authorization__ios _icon-ios">Sign in with Apple</a>
+						</div>
+						<div class="authorization__lead">Don’t have an account? <a href="#">Sign up</a></div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<script src="js/app.min.js?_v=20220922120614"></script>
+</body>
+
+</html>

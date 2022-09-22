@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<title>Реєстрація</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220922120614">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="page">
+			<div class="authorization authorization-popup">
+				<div class="authorization__container">
+					<form data-required action="#" class="authorization__body authorization__body-popup">
+						<button type="button" class="authorization__close _icon-close"></button>
+						<div class="authorization__label">Registration</div>
+						<div class="authorization__inputs">
+							<div class="authorization__input">
+								<input data-validate autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Enter name" class="input">
+							</div>
+							<div class="authorization__input">
+								<input data-validate autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Enter surname" class="input">
+							</div>
+							<div class="authorization__input">
+								<input data-validate autocomplete="off" type="email" name="form[]" data-error="Ошибка" placeholder="Enter e-mail" class="input">
+							</div>
+							<div class="authorization__input">
+								<input data-validate autocomplete="off" type="password" name="form[]" data-error="Ошибка" placeholder="Enter pasword" class="input input__viewpass">
+							</div>
+							<div class="authorization__input">
+								<input data-validate autocomplete="off" type="password" name="form[]" data-error="Ошибка" placeholder="Reapeat pasword" class="input input__viewpass">
+							</div>
+						</div>
+						<div class="authorization__checkbox">
+							<input id="c_2" data-error="Ошибка" class="authorization__checkbox-input" type="checkbox" value="1" name="form[]">
+							<label for="c_2" class="authorization__checkbox-label"><span class="authorization__checkbox-text">Receive news and notifications about the
+									project</span></label>
+						</div>
+						<button type="submit" class="authorization__button">Sign in</button>
+					</form>
+				</div>
+			</div>
+		</main>
+	</div>
+	<script src="js/app.min.js?_v=20220922120614"></script>
+</body>
+
+</html>
